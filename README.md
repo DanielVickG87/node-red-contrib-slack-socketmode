@@ -53,7 +53,7 @@ msg.payload = {
     text: "Your message text"
 };
 
-⚙️ Slack Configuration (Required)
+# ⚙️ Slack Configuration (Required)
 
 Follow these steps to configure Slack:
 
@@ -95,7 +95,7 @@ SLACK_BOT_TOKEN (starts with xoxb-)	Required for sending messages
 
 Insert these tokens in the node configuration inside Node-RED.
 
-🚀 Usage Examples
+# 🚀 Usage Examples
 1. Receiving messages
 
 Connect the Slack RTM Listener node to a debug node.
@@ -133,7 +133,7 @@ return msg;
 
 Connect it to Slack RTM Sender.
 
-🔄 Auto-Reconnect Feature
+# 🔄 Auto-Reconnect Feature
 
 The Slack RTM connection automatically:
 
@@ -161,7 +161,7 @@ Control Node-RED flows from Slack
 
 Use the Listener node + Switch node.
 
-🧪 Testing
+# 🧪 Testing
 
 You can verify your Slack tokens by running:
 
