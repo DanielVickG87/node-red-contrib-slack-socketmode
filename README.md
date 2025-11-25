@@ -23,8 +23,9 @@ This package is useful when building:
 ```bash
 cd ~/.node-red
 npm install node-red-contrib-slack-rtm
-
-🧩 Node Description
+```
+---
+# 🧩 Node Description
 
 This package provides two main components:
 
